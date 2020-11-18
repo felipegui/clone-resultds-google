@@ -103,3 +103,88 @@ main {
     color: #777;
     font-size: 13px;
 }
+.active {
+    border-bottom: 4px solid #1A73E8;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.active a {
+    color: #1A73E8;
+}
+.abas-nav div:hover a {
+    color: #1A73E8;
+}
+.resultds {
+    width: calc(100% - 180px);
+    height: 20px;
+    padding-left: 180px;
+    display: flex;
+    align-items: center;
+    color: #777;
+    font-size: 13px;
+}
+.container {
+    width: calc(100% - 180px);
+    height: auto;
+    padding-left: 180px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.block-search {
+    width: 620px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.title a {
+    max-width: 620px;
+    height: 23px;
+    font-size: 18px;
+    color: #1A0DAB;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.title a:hover {
+    text-decoration: underline;
+}
+.link, .link a {
+    height: 17px;
+    color: #006621;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.info {
+    color: #545454;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+.search-rel {
+    max-width: 620px;
+    height: auto;
+}
+.int {
+    max-width: 620px;
+    height: auto;
+    margin-top: 30px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: flex-start;
+}
+.int div {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.int a {
+    text-decoration: none;
+    color: #1A0DAB;
+    margin-top: 10px;
+}
+.int a:hover {
+    text-decoration: underline;
+}
